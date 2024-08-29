@@ -31,15 +31,10 @@ celldata314_coords = celldata314.iloc[:, [7, 6]].values
 celldata315_coords = celldata315.iloc[:, [7, 6]].values
 celldata316_coords = celldata316.iloc[:, [7, 6]].values
 
-# print(celldata310_coords)
-
 
 hospital_names = hospital_lat_long_df['Hospital Name'].values
 hospital_coords = hospital_lat_long_df[['Latitude', 'Longitude']].values
-# print(hospital_names)
-# print(hospital_coords)
 # print(celldata316.size + celldata315.size + celldata314.size + celldata313.size + celldata312.size + celldata311.size + celldata310.size)
-# print(hospital_lat_long_df.head())
 
 # Custom DataFrame to help record various distance metric requirements
 hospital_proximity = pd.DataFrame({
@@ -49,7 +44,6 @@ hospital_proximity = pd.DataFrame({
     'Nearby Cell Towers 1000m': 0
 })
 
-# print(hospital_proximity.iloc[0])
 
 hospital_count = 0
 for hospital_coord in hospital_coords:
@@ -169,6 +163,5 @@ for hospital_coord in hospital_coords:
     hospital_count += 1
 
 
-# hospital_proximity.at[0, 'Nearby Cell Towers 100m'] = 5
 print(hospital_proximity)
 hospital_proximity.to_csv('preliminary_AHA_OpenCellID_analysis', index=True)
