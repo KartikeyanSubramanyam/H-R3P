@@ -1,6 +1,6 @@
 # H-R3P
 
-This repository is made for all exploratory/research tasks that I come across/was assigned while working on the ARPA-H project H-R3P.
+This repository is made for all exploratory/research tasks that I came across/was assigned while working on the ARPA-H project H-R3P.
 
 ## Cellular Analysis
 
