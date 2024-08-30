@@ -44,6 +44,10 @@ hospital_proximity = pd.DataFrame({
     'Nearby Cell Towers 1000m': 0
 })
 
+# TODO: Filter the OpenCelliD Data
+
+
+# TODO (Maybe): Append all the csv's in one csv file. Organize the OpenCelliD data by lat longs, and batch the scans by lat longs.
 
 hospital_count = 0
 for hospital_coord in hospital_coords:
