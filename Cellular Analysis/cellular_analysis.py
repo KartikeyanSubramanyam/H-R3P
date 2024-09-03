@@ -13,31 +13,30 @@ hospital_lat_long_df = df[['Hospital Name', 'Latitude', 'Longitude']]
 
 
 # Extracting OpenCellID Data (7 different files for 310-316 MCC)
-celldata310 = pd.read_csv('310.csv.gz', compression='gzip')
-celldata311 = pd.read_csv('311.csv.gz', compression='gzip')
-celldata312 = pd.read_csv('312.csv.gz', compression='gzip')
-celldata313 = pd.read_csv('313.csv.gz', compression='gzip')
-celldata314 = pd.read_csv('314.csv.gz', compression='gzip')
-celldata315 = pd.read_csv('315.csv.gz', compression='gzip')
-celldata316 = pd.read_csv('316.csv.gz', compression='gzip')
-# print(celldata310.iloc[:, [6, 7]].values)
+column_names = ['Radio Gen.', 'MCC', 'MNC', 'LAC', 'CID', 'X', 'Longitude', 'Latitude', 'Range', 'Samples', 'Changeable', 'Created', 'Updated', 'Average Signal']
+celldata310 = pd.read_csv('310.csv.gz', compression='gzip', header=None, names=column_names)
+celldata311 = pd.read_csv('311.csv.gz', compression='gzip', header=None, names=column_names)
+celldata312 = pd.read_csv('312.csv.gz', compression='gzip', header=None, names=column_names)
+celldata313 = pd.read_csv('313.csv.gz', compression='gzip', header=None, names=column_names)
+celldata314 = pd.read_csv('314.csv.gz', compression='gzip', header=None, names=column_names)
+celldata315 = pd.read_csv('315.csv.gz', compression='gzip', header=None, names=column_names)
+celldata316 = pd.read_csv('316.csv.gz', compression='gzip', header=None, names=column_names)
+combined_celldata = [celldata310, celldata311, celldata312, celldata313, celldata314, celldata315, celldata316]
+prelim_celldata = pd.concat(combined_celldata, ignore_index=True)
 
 
-# TODO: Filter the OpenCelliD Data
+# Filter the OpenCelliD Data by Range <= 15000 meters and Samples > 2
+filtered_by_range_df = prelim_celldata[prelim_celldata.iloc[:, 8] <= 15000]
+print(len(filtered_by_range_df))
+celldata = filtered_by_range_df[filtered_by_range_df.iloc[:, 9] > 2]
+print(len(celldata))
 
 # Extracting only the co-ordinates for cellular samples
-celldata310_coords = celldata310.iloc[:, [7, 6]].values
-celldata311_coords = celldata311.iloc[:, [7, 6]].values
-celldata312_coords = celldata312.iloc[:, [7, 6]].values
-celldata313_coords = celldata313.iloc[:, [7, 6]].values
-celldata314_coords = celldata314.iloc[:, [7, 6]].values
-celldata315_coords = celldata315.iloc[:, [7, 6]].values
-celldata316_coords = celldata316.iloc[:, [7, 6]].values
+celldata_coords = celldata.iloc[:, [7, 6]].values
 
 
 hospital_names = hospital_lat_long_df['Hospital Name'].values
 hospital_coords = hospital_lat_long_df[['Latitude', 'Longitude']].values
-# print(celldata316.size + celldata315.size + celldata314.size + celldata313.size + celldata312.size + celldata311.size + celldata310.size)
 
 # Custom DataFrame to help record various distance metric requirements
 hospital_proximity = pd.DataFrame({
@@ -55,104 +54,7 @@ hospital_proximity = pd.DataFrame({
 hospital_count = 0
 for hospital_coord in hospital_coords:
 
-    # 310 MCC
-    for cellular_coord in celldata310_coords:
-        distance = geodesic((hospital_coord[0], hospital_coord[1]), (cellular_coord[0], cellular_coord[1])).kilometers
-        if (distance * 1000) <= 100:
-            print('Got em at 100!')
-            hospital_proximity.at[hospital_count, 'Nearby Cell Towers 100m'] += 1
-            print(hospital_proximity.iloc[hospital_count])
-            print(cellular_coord)
-            continue
-        if (distance * 1000) <= 1000:
-            print('Got em at 1000!')
-            hospital_proximity.at[hospital_count, 'Nearby Cell Towers 1000m'] += 1
-            print(hospital_proximity.iloc[hospital_count])
-            print(cellular_coord)
-            continue
-
-    # 311 MCC
-    for cellular_coord in celldata311_coords:
-        distance = geodesic((hospital_coord[0], hospital_coord[1]), (cellular_coord[0], cellular_coord[1])).kilometers
-        if (distance * 1000) <= 100:
-            print('Got em at 100!')
-            hospital_proximity.at[hospital_count, 'Nearby Cell Towers 100m'] += 1
-            print(hospital_proximity.iloc[hospital_count])
-            print(cellular_coord)
-            continue
-        if (distance * 1000) <= 1000:
-            print('Got em at 1000!')
-            hospital_proximity.at[hospital_count, 'Nearby Cell Towers 1000m'] += 1
-            print(hospital_proximity.iloc[hospital_count])
-            print(cellular_coord)
-            continue
-
-    # 312 MCC
-    for cellular_coord in celldata312_coords:
-        distance = geodesic((hospital_coord[0], hospital_coord[1]), (cellular_coord[0], cellular_coord[1])).kilometers
-        if (distance * 1000) <= 100:
-            print('Got em at 100!')
-            hospital_proximity.at[hospital_count, 'Nearby Cell Towers 100m'] += 1
-            print(hospital_proximity.iloc[hospital_count])
-            print(cellular_coord)
-            continue
-        if (distance * 1000) <= 1000:
-            print('Got em at 1000!')
-            hospital_proximity.at[hospital_count, 'Nearby Cell Towers 1000m'] += 1
-            print(hospital_proximity.iloc[hospital_count])
-            print(cellular_coord)
-            continue
-
-    # 313 MCC
-    for cellular_coord in celldata313_coords:
-        distance = geodesic((hospital_coord[0], hospital_coord[1]), (cellular_coord[0], cellular_coord[1])).kilometers
-        if (distance * 1000) <= 100:
-            print('Got em at 100!')
-            hospital_proximity.at[hospital_count, 'Nearby Cell Towers 100m'] += 1
-            print(hospital_proximity.iloc[hospital_count])
-            print(cellular_coord)
-            continue
-        if (distance * 1000) <= 1000:
-            print('Got em at 1000!')
-            hospital_proximity.at[hospital_count, 'Nearby Cell Towers 1000m'] += 1
-            print(hospital_proximity.iloc[hospital_count])
-            print(cellular_coord)
-            continue
-
-    # 314 MCC
-    for cellular_coord in celldata314_coords:
-        distance = geodesic((hospital_coord[0], hospital_coord[1]), (cellular_coord[0], cellular_coord[1])).kilometers
-        if (distance * 1000) <= 100:
-            print('Got em at 100!')
-            hospital_proximity.at[hospital_count, 'Nearby Cell Towers 100m'] += 1
-            print(hospital_proximity.iloc[hospital_count])
-            print(cellular_coord)
-            continue
-        if (distance * 1000) <= 1000:
-            print('Got em at 1000!')
-            hospital_proximity.at[hospital_count, 'Nearby Cell Towers 1000m'] += 1
-            print(hospital_proximity.iloc[hospital_count])
-            print(cellular_coord)
-            continue
-
-    # 315 MCC
-    for cellular_coord in celldata315_coords:
-        distance = geodesic((hospital_coord[0], hospital_coord[1]), (cellular_coord[0], cellular_coord[1])).kilometers
-        if (distance * 1000) <= 100:
-            print('Got em at 100!')
-            hospital_proximity.at[hospital_count, 'Nearby Cell Towers 100m'] += 1
-            print(hospital_proximity.iloc[hospital_count])
-            print(cellular_coord)
-            continue
-        if (distance * 1000) <= 1000:
-            print('Got em at 1000!')
-            hospital_proximity.at[hospital_count, 'Nearby Cell Towers 1000m'] += 1
-            print(hospital_proximity.iloc[hospital_count])
-            print(cellular_coord)
-            continue
-    
-    # 316 MCC
-    for cellular_coord in celldata316_coords:
+    for cellular_coord in celldata_coords:
         distance = geodesic((hospital_coord[0], hospital_coord[1]), (cellular_coord[0], cellular_coord[1])).kilometers
         if (distance * 1000) <= 100:
             print('Got em at 100!')
