@@ -12,7 +12,7 @@ df = pd.DataFrame(data[6:], columns=data[5])
 hospital_lat_long_df = df[['Hospital Name', 'Latitude', 'Longitude']]
 
 
-# Extracting OpenCellID Data (6 different files for 310-316 MCC)
+# Extracting OpenCellID Data (7 different files for 310-316 MCC)
 celldata310 = pd.read_csv('310.csv.gz', compression='gzip')
 celldata311 = pd.read_csv('311.csv.gz', compression='gzip')
 celldata312 = pd.read_csv('312.csv.gz', compression='gzip')
@@ -21,6 +21,9 @@ celldata314 = pd.read_csv('314.csv.gz', compression='gzip')
 celldata315 = pd.read_csv('315.csv.gz', compression='gzip')
 celldata316 = pd.read_csv('316.csv.gz', compression='gzip')
 # print(celldata310.iloc[:, [6, 7]].values)
+
+
+# TODO: Filter the OpenCelliD Data
 
 # Extracting only the co-ordinates for cellular samples
 celldata310_coords = celldata310.iloc[:, [7, 6]].values
@@ -44,7 +47,7 @@ hospital_proximity = pd.DataFrame({
     'Nearby Cell Towers 1000m': 0
 })
 
-# TODO: Filter the OpenCelliD Data
+
 
 
 # TODO (Maybe): Append all the csv's in one csv file. Organize the OpenCelliD data by lat longs, and batch the scans by lat longs.
