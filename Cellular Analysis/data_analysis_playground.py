@@ -3,6 +3,8 @@ import csv
 from geopy.distance import geodesic
 
 # Reading AHA dataset for hospitals and their respective co-ordinates
+# Depending on version of python; might need to run the below command as:
+# with open('2024_05_UC_San_Diego_Health.csv', 'r', encoding='utf-8-sig') as f:
 with open('2024_05_UC_San_Diego_Health.csv', 'r') as f:
     reader = csv.reader(f)
     data = list(reader)
@@ -11,8 +13,11 @@ with open('2024_05_UC_San_Diego_Health.csv', 'r') as f:
 df = pd.DataFrame(data[6:], columns=data[5])
 hospital_lat_long_df = df[['Hospital Name', 'Latitude', 'Longitude']]
 print(hospital_lat_long_df)
-column_names = ['Radio Gen.', 'MCC', 'MNC', 'LAC', 'CID', 'X', 'Longitude', 'Latitude', 'Range', 'Samples', 'Changeable', 'Created', 'Updated', 'Average Signal']
+
+
+
 # Extracting OpenCellID Data (7 different files for 310-316 MCC)
+column_names = ['Radio Gen.', 'MCC', 'MNC', 'LAC', 'CID', 'X', 'Longitude', 'Latitude', 'Range', 'Samples', 'Changeable', 'Created', 'Updated', 'Average Signal']
 celldata310 = pd.read_csv('310.csv.gz', compression='gzip', header=None, names=column_names)
 celldata311 = pd.read_csv('311.csv.gz', compression='gzip', header=None, names=column_names)
 celldata312 = pd.read_csv('312.csv.gz', compression='gzip', header=None, names=column_names)
@@ -22,7 +27,7 @@ celldata315 = pd.read_csv('315.csv.gz', compression='gzip', header=None, names=c
 celldata316 = pd.read_csv('316.csv.gz', compression='gzip', header=None, names=column_names)
 
 
-# print(len(celldata310))
+print(celldata310)
 # print(len(celldata311))
 # print(len(celldata312))
 # print(len(celldata313))

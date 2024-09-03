@@ -3,6 +3,8 @@ import csv
 from geopy.distance import geodesic
 
 # Reading AHA dataset for hospitals and their respective co-ordinates
+# Depending on version of python; might need to run the below command as:
+# with open('2024_05_UC_San_Diego_Health.csv', 'r', encoding='utf-8-sig') as f:
 with open('2024_05_UC_San_Diego_Health.csv', 'r') as f:
     reader = csv.reader(f)
     data = list(reader)
@@ -49,11 +51,10 @@ hospital_proximity = pd.DataFrame({
 
 
 
-# TODO (Maybe): Append all the csv's in one csv file. Organize the OpenCelliD data by lat longs, and batch the scans by lat longs.
+# TODO (Maybe): Organize the OpenCelliD data by lat longs, and batch the scans by lat longs.
 
 hospital_count = 0
 for hospital_coord in hospital_coords:
-
     for cellular_coord in celldata_coords:
         distance = geodesic((hospital_coord[0], hospital_coord[1]), (cellular_coord[0], cellular_coord[1])).kilometers
         if (distance * 1000) <= 100:
