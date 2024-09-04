@@ -1,6 +1,7 @@
 import pandas as pd
 import csv
 from geopy.distance import geodesic
+import numpy as np
 
 # Reading AHA dataset for hospitals and their respective co-ordinates
 # Depending on version of python; might need to run the below command as:
@@ -14,6 +15,22 @@ df = pd.DataFrame(data[6:], columns=data[5])
 hospital_lat_long_df = df[['Hospital Name', 'Latitude', 'Longitude']]
 print(hospital_lat_long_df)
 
+
+
+# Split the DataFrame into 4 parts
+df_split = np.array_split(hospital_lat_long_df, 4)
+
+# Access each part
+df1 = df_split[0]
+df2 = df_split[1]
+df3 = df_split[2]
+df4 = df_split[3]
+
+# Print the individual DataFrames
+print("DataFrame 1:\n", df1)
+print("DataFrame 2:\n", df2)
+print("DataFrame 3:\n", df3)
+print("DataFrame 4:\n", df4)
 
 
 # Extracting OpenCellID Data (7 different files for 310-316 MCC)
@@ -48,3 +65,5 @@ print(len(filtered_by_range_df))
 fin_celldata = filtered_by_range_df[filtered_by_range_df.iloc[:, 9] > 2]
 print(len(fin_celldata))
 # print(fin_celldata)
+
+
