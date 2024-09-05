@@ -42,10 +42,10 @@ df3 = df_split[2]
 df4 = df_split[3]
 
 # Print the individual DataFrames
-# print("DataFrame 1:\n", df1)
-# print("DataFrame 2:\n", df2)
-# print("DataFrame 3:\n", df3)
-# print("DataFrame 4:\n", df4)
+print("DataFrame 1:\n", df1)
+print("DataFrame 2:\n", df2)
+print("DataFrame 3:\n", df3)
+print("DataFrame 4:\n", df4)
 
 
 # Extracting OpenCellID Data (7 different files for 310-316 MCC)
@@ -72,9 +72,8 @@ print(len(celldata310)+len(celldata311)+len(celldata312)+len(celldata313)+len(ce
 combined_celldata = [celldata310, celldata311, celldata312, celldata313, celldata314, celldata315, celldata316]
 celldata = pd.concat(combined_celldata, ignore_index=True)
 
-# print(celldata)
 # lengths for separate and concatenated match
-print(len(celldata))
+# print(len(celldata))
 
 filtered_by_range_df = celldata[celldata.iloc[:, 8] <= 15000]
 print(len(filtered_by_range_df))
@@ -82,20 +81,51 @@ fin_celldata = filtered_by_range_df[filtered_by_range_df.iloc[:, 9] > 2]
 print(len(fin_celldata))
 # print(fin_celldata)
 
-# Create a map centered at a specific latitude and longitude
+# Creating a map centered at a specific latitude and longitude for all hospitals
 my_map = folium.Map(location=[39.8097, 98.5556], zoom_start=1)
 
 looprun = 0
 for idx, hospital_coord in enumerate(hospital_coords_df_cleaned.iterrows()):
-    print(hospital_coord[1]['Latitude'])
-    print(hospital_coord[1]['Longitude'])
+    # print(hospital_coord[1]['Latitude'])
+    # print(hospital_coord[1]['Longitude'])
     if idx == 0:  # Skip the first row
         continue
     # Add a marker for each valid coordinate
     folium.Marker([hospital_coord[1]['Latitude'], hospital_coord[1]['Longitude']], popup=hospital_names[looprun]).add_to(my_map)
     looprun += 1
 
-# # Display the map
+# Display the map
 my_map.save("HospitalsMap.html")
 
+df = pd.read_csv('preliminary_AHA_OpenCellID_analysis', index_col=0)
 
+# Optionally, you can rename columns explicitly if needed:
+df.columns = ['Hospital Name', 'Nearby Cell Towers 10m', 'Nearby Cell Towers 100m', 'Nearby Cell Towers 1000m']
+
+# Display cleaned DataFrame
+# print(df.head())
+
+filtered_df = df[(df['Nearby Cell Towers 10m'] != 0) | 
+                 (df['Nearby Cell Towers 100m'] != 0) | 
+                 (df['Nearby Cell Towers 1000m'] != 0)]
+
+print(filtered_df.head())
+
+merged_df = pd.merge(filtered_df, hospital_lat_long_df, on='Hospital Name', how='inner')
+# print(merged_df.head())
+# print(len(merged_df))
+
+second_map = folium.Map(location=[39.8097, 98.5556], zoom_start=1)
+
+merged_df['Latitude'] = pd.to_numeric(merged_df['Latitude'])
+merged_df['Longitude'] = pd.to_numeric(merged_df['Longitude'])
+merged_df_cleaned = merged_df.dropna(subset=['Latitude', 'Longitude'])
+# print(len(merged_df_cleaned))
+# print(merged_df_cleaned.tail())
+for _, row in merged_df_cleaned.iterrows():
+    # print(row['Latitude'])
+    # print(row['Longitude'])
+    folium.Marker([row['Latitude'], row['Longitude']], popup={row['Hospital Name']}).add_to(second_map)
+
+# Display the map
+second_map.save("HospitalsMapWithNonZeroCellTowers.html")
