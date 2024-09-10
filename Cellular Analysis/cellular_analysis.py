@@ -74,4 +74,4 @@ for hospital_coord in hospital_coords:
 
 
 print(hospital_proximity)
-hospital_proximity.to_csv('preliminary_AHA_OpenCellID_analysis', index=True)
+hospital_proximity.to_csv('filtered_AHA_OpenCellID_analysis', index=True)
