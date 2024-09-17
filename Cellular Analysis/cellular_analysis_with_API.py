@@ -50,6 +50,7 @@ def query_opencellid_and_save_csv(api_key, hospital_name, lat, lon, distance_met
 
 
 api_key = "pk.dbbe0c1c9071b2b428c86f62d8246dfa"
+
 # Reading AHA dataset for hospitals and their respective co-ordinates
 # Depending on version of python; might need to run the below command as:
 # with open('2024_05_UC_San_Diego_Health.csv', 'r', encoding='utf-8-sig') as f:
