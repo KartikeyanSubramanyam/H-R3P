@@ -18,87 +18,87 @@
 16,Castaner General Hospital,0
 17,Hospital Menonita De Cayey,33
 18,Hospital Metropolitano,163
-19,Hospital San Pablo Del Este HIMA Fajardo,0,0,0
-20,Doctor's Center of Bayamon,0,0,0
-21,Encompass Health Rehabilitation Hospital of Manati,0,0,8
-22,Hospital Menonita Guayama,0,0,0
-23,Auxilio Mutuo Hospital,0,0,13
-24,Hospital Del Maestro,0,0,12
-25,Hospital Menonita Humacao,0,0,0
-26,Hospital HIMA de Humacao,0,0,0
-27,Ryder Memorial Hospital,0,0,0
-28,Hospital Pavia Yauco,0,0,0
-29,Mennonite General Hospital,0,0,0
-30,Hospital Perea,0,0,0
-31,Bella Vista Hospital,0,0,0
-32,Dr. Pila's Hospital,0,0,0
-33,Hospital De Damas,0,0,3
-34,St. Luke's Episcopal Hospital,0,0,0
-35,Mayagüez Medical Center,0,0,0
-36,Hospital Universitario Dr. Ramon Ruiz Arnau,0,0,0
-37,Hospital de Psiquiatria,0,1,25
-38,Doctors Center Manati,0,0,0
-39,Hospital De La Concepcion,0,0,0
-40,Hospital Psiquiatrico Metropolitano,0,0,0
-41,Ashford Presbyterian Community Hospital,0,2,50
-42,Professional Hospital Guaynabo,0,0,0
-43,San Juan City Hospital,0,1,23
-44,Metropolitano De La Montana,0,3,27
-45,Hospital Menonita De Caguas,0,0,0
-46,Hospital Episcopal San Lucas Metro,0,0,0
-47,Hospital San Antonio,0,0,0
-48,Hospital de Psiquiatria Forense,0,0,0
-49,Veterans Affairs Caribbean Healthcare System,0,0,1
-50,San Juan Capestrano Hospital,0,0,0
-51,Doctors' Center Hospital San Juan,0,0,39
-52,"Hospital Centro Comprensivo de Cáncer, Universidad de Puerto Rico",0,0,0
-53,Hospital de la Universidad de Puerto Rico/Dr. Federico Trilla,0,0,0
-54,Multy Medical Rehabilitation Hospital San Juan,0,1,13
-55,Hospital Pavia-Hato Rey,0,1,10
-56,Hospital Pavia-Santurce,0,4,51
-57,San Jorge Children's and Women Hospital,0,3,78
-58,I. Gonzalez Martinez Oncologic Hospital,0,0,49
-59,Industrial Hospital,0,1,25
-60,First Hospital Panamericano,0,0,0
-61,University Pediatric Hospital,0,0,49
-62,Caribbean Medical Center,0,0,0
-63,Centro De Salud Conductual Menonita-CIMA,0,0,0
-64,Hospital Psiquiatrico Correccional,0,0,1
-65,Hospital Cuidado Agudo Especializado En Pacientes Politraumatizados,0,0,2
-66,Schneider Regional Medical Center,0,0,0
-67,Governor Juan F. Luis Hospital,0,0,9
-68,Guam Memorial Hospital Authority,0,0,0
-69,U. S. Naval Hospital Guam,0,0,0
-70,Guam Regional Medical City,0,0,0
-71,Lyndon B. Johnson Tropical Medical Center,0,0,0
-72,Commonwealth Health Center,0,0,0
-73,Northern Light Acadia Hospital,0,0,0
-74,Mid Coast Hospital,0,0,0
-75,Northern Light Mercy Hospital,0,0,3
-76,Riverview Psychiatric Center,0,0,0
-77,Dorothea Dix Psychiatric Center,0,0,0
-78,Northern Light Eastern Maine Medical Center,0,0,0
-79,St. Joseph Hospital,0,0,1
-80,Mount Desert Island Hospital,0,0,0
-81,Waldo County General Hospital,0,0,0
-82,Northern Light Blue Hill Hospital,0,0,0
-83,Bridgton Hospital,0,0,0
-84,Calais Community Hospital,0,0,0
-85,Cary Medical Center,0,0,0
-86,Northern Light Mayo Hospital,0,0,0
-87,Northern Light Maine Coast Hospital,0,0,1
-88,Franklin Memorial Hospital,0,0,0
-89,Northern Maine Medical Center,0,0,0
-90,Northern Light CA Dean Hospital,0,0,0
-91,Houlton Regional Hospital,0,0,8
-92,LincolnHealth,0,0,0
-93,Central Maine Medical Center,0,0,0
-94,Southern Maine Health Care - Biddeford Medical Center,0,0,2
-95,St. Mary's Regional Medical Center,0,0,0
-96,Down East Community Hospital,0,0,0
-97,Millinocket Regional Hospital,0,0,0
-98,Stephens Memorial Hospital,0,0,0
-99,Penobscot Valley Hospital,0,0,0
+19,Hospital San Pablo Del Este HIMA Fajardo,19
+20,Doctor's Center of Bayamon,182
+21,Encompass Health Rehabilitation Hospital of Manati,39
+22,Hospital Menonita Guayama,10
+23,Auxilio Mutuo Hospital,172
+24,Hospital Del Maestro,237
+25,Hospital Menonita Humacao,27
+26,Hospital HIMA de Humacao,18
+27,Ryder Memorial Hospital,22
+28,Hospital Pavia Yauco,6
+29,Mennonite General Hospital,7
+30,Hospital Perea,159
+31,Bella Vista Hospital,4
+32,Dr. Pila's Hospital,0
+33,Hospital De Damas,57
+34,St. Luke's Episcopal Hospital,29
+35,Mayagüez Medical Center,8
+36,Hospital Universitario Dr. Ramon Ruiz Arnau,16
+37,Hospital de Psiquiatria,146
+38,Doctors Center Manati,33
+39,Hospital De La Concepcion,2
+40,Hospital Psiquiatrico Metropolitano,31
+41,Ashford Presbyterian Community Hospital,194
+42,Professional Hospital Guaynabo,47
+43,San Juan City Hospital,122
+44,Metropolitano De La Montana,33
+45,Hospital Menonita De Caguas,75
+46,Hospital Episcopal San Lucas Metro,46
+47,Hospital San Antonio,150
+48,Hospital de Psiquiatria Forense,18
+49,Veterans Affairs Caribbean Healthcare System,67
+50,San Juan Capestrano Hospital,95
+51,Doctors' Center Hospital San Juan,177
+52,"Hospital Centro Comprensivo de Cáncer, Universidad de Puerto Rico",133
+53,Hospital de la Universidad de Puerto Rico/Dr. Federico Trilla,58
+54,Multy Medical Rehabilitation Hospital San Juan,159
+55,Hospital Pavia-Hato Rey,227
+56,Hospital Pavia-Santurce,222
+57,San Jorge Children's and Women Hospital,237
+58,I. Gonzalez Martinez Oncologic Hospital,108
+59,Industrial Hospital,146
+60,First Hospital Panamericano,13
+61,University Pediatric Hospital,108
+62,Caribbean Medical Center,28
+63,Centro De Salud Conductual Menonita-CIMA,19
+64,Hospital Psiquiatrico Correccional,179
+65,Hospital Cuidado Agudo Especializado En Pacientes Politraumatizados,167
+66,Schneider Regional Medical Center,24
+67,Governor Juan F. Luis Hospital,11
+68,Guam Memorial Hospital Authority,15
+69,U. S. Naval Hospital Guam,17
+70,Guam Regional Medical City,34
+71,Lyndon B. Johnson Tropical Medical Center,3
+72,Commonwealth Health Center,25
+73,Northern Light Acadia Hospital,17
+74,Mid Coast Hospital,4
+75,Northern Light Mercy Hospital,32
+76,Riverview Psychiatric Center,4
+77,Dorothea Dix Psychiatric Center,6
+78,Northern Light Eastern Maine Medical Center,18
+79,St. Joseph Hospital,17
+80,Mount Desert Island Hospital,21
+81,Waldo County General Hospital,11
+82,Northern Light Blue Hill Hospital,1
+83,Bridgton Hospital,3
+84,Calais Community Hospital,0
+85,Cary Medical Center,1
+86,Northern Light Mayo Hospital,4
+87,Northern Light Maine Coast Hospital,11
+88,Franklin Memorial Hospital,22
+89,Northern Maine Medical Center,0
+90,Northern Light CA Dean Hospital,4
+91,Houlton Regional Hospital,6
+92,LincolnHealth,2
+93,Central Maine Medical Center,18
+94,Southern Maine Health Care - Biddeford Medical Center,12
+95,St. Mary's Regional Medical Center,20
+96,Down East Community Hospital,1
+97,Millinocket Regional Hospital,2
+98,Stephens Memorial Hospital,8
+99,Penobscot Valley Hospital,1
 100,Northern Light Sebasticook Valley Hospital,0,0,0
 101,Maine Medical Center,0,0,3
 102,New England Rehabilitation Hospital of Portland,0,0,0
