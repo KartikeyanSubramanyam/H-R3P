@@ -49,7 +49,6 @@ def query_opencellid_and_save_csv(api_key, hospital_name, lat, lon, distance_met
 
 
 
-# api_key = "pk.929ba4918140777ff0fee3a8bd532283"
 api_key = "pk.dbbe0c1c9071b2b428c86f62d8246dfa"
 # Reading AHA dataset for hospitals and their respective co-ordinates
 # Depending on version of python; might need to run the below command as:
@@ -82,8 +81,12 @@ for _, row in hospital_lat_long_df_cleaned.iterrows():
         api_key = "pk.929ba4918140777ff0fee3a8bd532283"
     if counter == 200:
         api_key = "pk.a43267bcc74980475bbe50592e4ef781"
-    counter += 1
     if counter == 300:
+        api_key = "pk.4644fdc16dd25203dc5b225d3b97fea1"
+    if counter == 400:
+        api_key = "pk.4e7a2c9626e45c4fdcfddde0b55fa338"
+    counter += 1
+    if counter == 500:
         break
 
 print("Process completed!")
