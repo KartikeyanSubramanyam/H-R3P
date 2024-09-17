@@ -81,7 +81,7 @@ print(len(fin_celldata))
 print(fin_celldata)
 
 # Creating a map centered at a specific latitude and longitude for all hospitals
-my_map = folium.Map(location=[39.8097, 98.5556], zoom_start=1)
+# my_map = folium.Map(location=[39.8097, 98.5556], zoom_start=1)
 
 # looprun = 0
 # for idx, hospital_coord in enumerate(hospital_coords_df_cleaned.iterrows()):
@@ -94,56 +94,61 @@ my_map = folium.Map(location=[39.8097, 98.5556], zoom_start=1)
 #     looprun += 1
 
 # Display the map
+x = 1
+for i in range(10):
+    if i > 5:
+        x = 100
+    print(i)
+    print(x)
 
-
-df = pd.read_csv('preliminary_AHA_OpenCellID_analysis', index_col=0)
+# df = pd.read_csv('preliminary_AHA_OpenCellID_analysis', index_col=0)
 
 # Optionally, you can rename columns explicitly if needed:
-df.columns = ['Hospital Name', 'Nearby Cell Towers 10m', 'Nearby Cell Towers 100m', 'Nearby Cell Towers 1000m']
+# df.columns = ['Hospital Name', 'Nearby Cell Towers 10m', 'Nearby Cell Towers 100m', 'Nearby Cell Towers 1000m']
 
-# Display cleaned DataFrame
-# print(df.head())
+# # Display cleaned DataFrame
+# # print(df.head())
 
-filtered_df = df[(df['Nearby Cell Towers 10m'] != 0) | 
-                 (df['Nearby Cell Towers 100m'] != 0) | 
-                 (df['Nearby Cell Towers 1000m'] != 0)]
+# filtered_df = df[(df['Nearby Cell Towers 10m'] != 0) | 
+#                  (df['Nearby Cell Towers 100m'] != 0) | 
+#                  (df['Nearby Cell Towers 1000m'] != 0)]
 
-print(filtered_df.head())
+# print(filtered_df.head())
 
-# merged_df = pd.merge(filtered_df, hospital_lat_long_df, on='Hospital Name', how='inner')
-merged_df = pd.merge(df, hospital_lat_long_df, on='Hospital Name', how='inner')
-# print(merged_df.head())
-# print(len(merged_df))
+# # merged_df = pd.merge(filtered_df, hospital_lat_long_df, on='Hospital Name', how='inner')
+# merged_df = pd.merge(df, hospital_lat_long_df, on='Hospital Name', how='inner')
+# # print(merged_df.head())
+# # print(len(merged_df))
 
-# second_map = folium.Map(location=[39.8097, 98.5556], zoom_start=1)
+# # second_map = folium.Map(location=[39.8097, 98.5556], zoom_start=1)
 
-merged_df['Latitude'] = pd.to_numeric(merged_df['Latitude'])
-merged_df['Longitude'] = pd.to_numeric(merged_df['Longitude'])
-merged_df_cleaned = merged_df.dropna(subset=['Latitude', 'Longitude'])
-# print(len(merged_df_cleaned))
-# print(merged_df_cleaned.tail())
-for _, row in merged_df_cleaned.iterrows():
-    # print(row['Latitude'])
-    # print(row['Longitude'])
-    if (row['Nearby Cell Towers 10m'] != 0 or row['Nearby Cell Towers 100m'] != 0 or row['Nearby Cell Towers 1000m'] != 0):
-        blue_icon = BeautifyIcon(
-            icon_shape='marker',  # Pin shape
-            border_color='blue',  # Color for the pin border
-            text_color='blue',  # Color for the pin text
-            icon_size=[15, 15]  # Set the size of the pin
-        )
-        folium.Marker([row['Latitude'], row['Longitude']], popup={row['Hospital Name']}, icon=blue_icon).add_to(my_map)
+# merged_df['Latitude'] = pd.to_numeric(merged_df['Latitude'])
+# merged_df['Longitude'] = pd.to_numeric(merged_df['Longitude'])
+# merged_df_cleaned = merged_df.dropna(subset=['Latitude', 'Longitude'])
+# # print(len(merged_df_cleaned))
+# # print(merged_df_cleaned.tail())
+# for _, row in merged_df_cleaned.iterrows():
+#     # print(row['Latitude'])
+#     # print(row['Longitude'])
+#     if (row['Nearby Cell Towers 10m'] != 0 or row['Nearby Cell Towers 100m'] != 0 or row['Nearby Cell Towers 1000m'] != 0):
+#         blue_icon = BeautifyIcon(
+#             icon_shape='marker',  # Pin shape
+#             border_color='blue',  # Color for the pin border
+#             text_color='blue',  # Color for the pin text
+#             icon_size=[15, 15]  # Set the size of the pin
+#         )
+#         folium.Marker([row['Latitude'], row['Longitude']], popup={row['Hospital Name']}, icon=blue_icon).add_to(my_map)
 
-    else:
-        red_icon = BeautifyIcon(
-            icon_shape='marker',  # Pin shape
-            border_color='red',  # Color for the pin border
-            text_color='red',  # Color for the pin text
-            icon_size=[15, 15]  # Set the size of the pin
-        )
-        folium.Marker([row['Latitude'], row['Longitude']], popup={row['Hospital Name']}, icon=red_icon).add_to(my_map)
+#     else:
+#         red_icon = BeautifyIcon(
+#             icon_shape='marker',  # Pin shape
+#             border_color='red',  # Color for the pin border
+#             text_color='red',  # Color for the pin text
+#             icon_size=[15, 15]  # Set the size of the pin
+#         )
+#         folium.Marker([row['Latitude'], row['Longitude']], popup={row['Hospital Name']}, icon=red_icon).add_to(my_map)
 
 
-# Display the map
-my_map.save("Comparison.html")
-# second_map.save("HospitalsMapWithNonZeroCellTowers.html")
+# # Display the map
+# my_map.save("Comparison.html")
+# # second_map.save("HospitalsMapWithNonZeroCellTowers.html")
