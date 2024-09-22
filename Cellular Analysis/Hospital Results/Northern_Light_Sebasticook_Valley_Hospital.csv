@@ -1,0 +1,3 @@
+lat,lon,mcc,mnc,lac,cellid,averageSignalStrength,range,samples,changeable,radio,rnc,cid,tac,sid,nid,bid
+44.79184,-69.365829,311,480,15879,16097558,,1000,1,1,LTE,,,15879,,,
+44.792004,-69.365799,311,480,15879,16097563,,1000,1,1,LTE,,,15879,,,

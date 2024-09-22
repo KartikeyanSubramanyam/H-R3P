@@ -1,0 +1,3 @@
+lat,lon,mcc,mnc,lac,cellid,averageSignalStrength,range,samples,changeable,radio,rnc,cid,tac,sid,nid,bid
+44.95142,-72.203693,310,260,36455,23921,,1000,1,1,GSM,,,,,,
+44.955368041992,-72.200088500977,311,480,17150,262230279,,1000,1,1,LTE,,,17150,,,
