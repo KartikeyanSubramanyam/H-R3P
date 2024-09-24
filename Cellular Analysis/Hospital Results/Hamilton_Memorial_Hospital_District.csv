@@ -1,0 +1,4 @@
+lat,lon,mcc,mnc,lac,cellid,averageSignalStrength,range,samples,changeable,radio,rnc,cid,tac,sid,nid,bid
+38.08491,-88.539487,310,410,16387,55241736,,1003,1,1,LTE,,,16387,,,
+38.089661,-88.540718,311,480,55554,55663629,,1000,1,1,LTE,,,55554,,,
+38.09063,-88.538475,310,1192,9,2482,,1000,1,1,CDMA,,,,1192,9,2482

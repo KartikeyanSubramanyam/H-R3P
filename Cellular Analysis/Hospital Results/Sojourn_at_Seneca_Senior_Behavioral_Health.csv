@@ -1,0 +1,3 @@
+lat,lon,mcc,mnc,lac,cellid,averageSignalStrength,range,samples,changeable,radio,rnc,cid,tac,sid,nid,bid
+41.124667,-83.171453,310,410,21256,45050640,,2119,1,1,UMTS,,,,,,
+41.125259399414,-83.178176879883,311,480,62724,139707916,,1000,1,1,LTE,,,62724,,,

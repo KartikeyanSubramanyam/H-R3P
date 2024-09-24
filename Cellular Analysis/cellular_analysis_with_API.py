@@ -93,6 +93,8 @@ for _, row in hospital_lat_long_df_cleaned.iterrows():
     if counter == 600:
         api_key = "pk.2c9ac7b6baf9752e8a8b82db88db80b3"
     if counter == 675:
+        api_key = "pk.5e1f6108f5d5fc0b614a288a79959438"
+    if counter == 750:
         break
 
     counter += 1

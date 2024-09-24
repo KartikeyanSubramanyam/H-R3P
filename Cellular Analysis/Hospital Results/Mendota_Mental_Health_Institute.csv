@@ -1,0 +1,4 @@
+lat,lon,mcc,mnc,lac,cellid,averageSignalStrength,range,samples,changeable,radio,rnc,cid,tac,sid,nid,bid
+43.130086,-89.403261,310,410,17169,77176156,,5274,1,1,LTE,,,17169,,,
+43.132266,-89.401976,311,580,1289,140925186,,2686,1,1,LTE,,,1289,,,
+43.135895,-89.398774,310,260,29723,28082,,2380,1,1,GSM,,,,,,
