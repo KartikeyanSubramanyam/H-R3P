@@ -1,0 +1,3 @@
+lat,lon,mcc,mnc,lac,cellid,averageSignalStrength,range,samples,changeable,radio,rnc,cid,tac,sid,nid,bid
+43.999172,-90.491012,310,260,43514,7770430,,2337,1,1,LTE,,,43514,,,
+43.999771,-90.488358,311,330,132,52202,,1000,1,1,GSM,,,,,,

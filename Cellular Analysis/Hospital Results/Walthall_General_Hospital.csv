@@ -1,0 +1,3 @@
+lat,lon,mcc,mnc,lac,cellid,averageSignalStrength,range,samples,changeable,radio,rnc,cid,tac,sid,nid,bid
+31.11946105957,-90.157241821289,310,410,20307,5607,,1000,1,1,GSM,,,,,,
+31.11946105957,-90.157241821289,310,410,20307,5608,,1000,1,1,GSM,,,,,,

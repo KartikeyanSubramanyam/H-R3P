@@ -1,0 +1,4 @@
+lat,lon,mcc,mnc,lac,cellid,averageSignalStrength,range,samples,changeable,radio,rnc,cid,tac,sid,nid,bid
+35.214614868164,-87.339248657227,310,410,16917,205954615,,1000,1,1,UMTS,,,,,,
+35.218588,-87.341309,310,410,16920,206141229,,1054,1,1,UMTS,,,,,,
+35.222781,-87.337567,310,410,16917,205948701,,3359,1,1,UMTS,,,,,,

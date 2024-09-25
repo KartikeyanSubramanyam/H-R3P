@@ -1,0 +1,3 @@
+lat,lon,mcc,mnc,lac,cellid,averageSignalStrength,range,samples,changeable,radio,rnc,cid,tac,sid,nid,bid
+40.757492,-92.411873,310,410,18540,75133463,,1000,1,1,LTE,,,18540,,,
+40.757492,-92.411873,310,410,18540,75133462,,1000,1,1,LTE,,,18540,,,
