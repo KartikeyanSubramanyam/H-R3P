@@ -1,0 +1,4 @@
+lat,lon,mcc,mnc,lac,cellid,averageSignalStrength,range,samples,changeable,radio,rnc,cid,tac,sid,nid,bid
+39.491283,-96.172752,311,580,1,4258,,1000,1,1,LTE,,,1,,,
+39.491962,-96.172089,311,580,1,9379,,1000,1,1,LTE,,,1,,,
+39.494781,-96.170181,311,580,1,4257,,1000,1,1,LTE,,,1,,,

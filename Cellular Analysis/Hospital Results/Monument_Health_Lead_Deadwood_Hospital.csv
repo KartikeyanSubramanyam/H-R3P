@@ -1,0 +1,3 @@
+lat,lon,mcc,mnc,lac,cellid,averageSignalStrength,range,samples,changeable,radio,rnc,cid,tac,sid,nid,bid
+44.370136,-103.733013,310,410,37903,90092230,,1000,1,1,UMTS,,,,,,
+44.373092651367,-103.73085021973,310,410,1,10610,,1000,1,1,CDMA,,,,410,1,10610

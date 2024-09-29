@@ -1,0 +1,4 @@
+lat,lon,mcc,mnc,lac,cellid,averageSignalStrength,range,samples,changeable,radio,rnc,cid,tac,sid,nid,bid
+46.435921,-97.68383,310,410,37912,92498911,,1000,1,1,UMTS,,,,,,
+46.435921,-97.68383,310,410,37912,92498821,,1000,1,1,UMTS,,,,,,
+46.438225,-97.685547,310,410,18691,100564738,,1000,1,1,LTE,,,18691,,,

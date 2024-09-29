@@ -1,0 +1,3 @@
+lat,lon,mcc,mnc,lac,cellid,averageSignalStrength,range,samples,changeable,radio,rnc,cid,tac,sid,nid,bid
+39.093176,-93.209185,310,410,24513,122543106,,1061,1,1,UMTS,,,,,,
+39.094161987305,-93.212814331055,310,410,24513,122513112,,1000,1,1,UMTS,,,,,,

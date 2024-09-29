@@ -1,0 +1,3 @@
+lat,lon,mcc,mnc,lac,cellid,averageSignalStrength,range,samples,changeable,radio,rnc,cid,tac,sid,nid,bid
+40.498215,-98.948509,311,580,2,23585,,1000,1,1,CDMA,,,,580,2,23585
+40.498962,-98.948479,310,450,50,2300930,,1000,1,1,LTE,,,50,,,

@@ -1,0 +1,3 @@
+lat,lon,mcc,mnc,lac,cellid,averageSignalStrength,range,samples,changeable,radio,rnc,cid,tac,sid,nid,bid
+36.69936,-95.627174,310,260,32938,29961,,3862,1,1,GSM,,,,,,
+36.700862,-95.626444,310,410,25088,117864381,,2088,1,1,LTE,,,25088,,,
