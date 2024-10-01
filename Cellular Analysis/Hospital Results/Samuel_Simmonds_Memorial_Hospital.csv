@@ -1,0 +1,3 @@
+lat,lon,mcc,mnc,lac,cellid,averageSignalStrength,range,samples,changeable,radio,rnc,cid,tac,sid,nid,bid
+71.298153,-156.741547,311,370,45700,1459715,,1000,1,1,LTE,,,45700,,,
+71.30333,-156.740571,311,370,3000,3001,,1000,1,1,GSM,,,,,,

@@ -1,0 +1,3 @@
+lat,lon,mcc,mnc,lac,cellid,averageSignalStrength,range,samples,changeable,radio,rnc,cid,tac,sid,nid,bid
+38.822784,-102.355545,310,410,38408,98844682,,1000,1,1,LTE,,,38408,,,
+38.822784,-102.355545,310,410,38408,98877456,,1000,1,1,LTE,,,38408,,,

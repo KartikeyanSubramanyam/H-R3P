@@ -1,0 +1,3 @@
+lat,lon,mcc,mnc,lac,cellid,averageSignalStrength,range,samples,changeable,radio,rnc,cid,tac,sid,nid,bid
+34.145079,-114.29407,310,260,13333,24234498,,1107,1,1,LTE,,,13333,,,
+34.145171,-114.293994,310,260,13333,50606212,,1094,1,1,LTE,,,13333,,,

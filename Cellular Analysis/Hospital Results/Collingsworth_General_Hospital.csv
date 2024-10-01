@@ -1,0 +1,4 @@
+lat,lon,mcc,mnc,lac,cellid,averageSignalStrength,range,samples,changeable,radio,rnc,cid,tac,sid,nid,bid
+34.849278,-100.218083,311,480,,35391746,,1000,1,1,LTE,,,,,,
+34.8493,-100.218079,311,480,,35391768,,1000,1,1,LTE,,,,,,
+34.852568,-100.213598,311,480,35331,35391758,,19012,1,1,LTE,,,35331,,,

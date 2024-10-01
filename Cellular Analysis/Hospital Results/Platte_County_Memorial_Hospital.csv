@@ -1,0 +1,2 @@
+lat,lon,mcc,mnc,lac,cellid,averageSignalStrength,range,samples,changeable,radio,rnc,cid,tac,sid,nid,bid
+42.051407,-104.957474,310,20,11,25551,,1000,1,1,CDMA,,,,20,11,25551

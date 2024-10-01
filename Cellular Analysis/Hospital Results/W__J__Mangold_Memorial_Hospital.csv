@@ -1,0 +1,2 @@
+lat,lon,mcc,mnc,lac,cellid,averageSignalStrength,range,samples,changeable,radio,rnc,cid,tac,sid,nid,bid
+34.128201,-101.441444,310,410,27651,203063567,,1000,1,1,LTE,,,27651,,,

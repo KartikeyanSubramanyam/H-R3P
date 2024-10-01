@@ -1,0 +1,3 @@
+lat,lon,mcc,mnc,lac,cellid,averageSignalStrength,range,samples,changeable,radio,rnc,cid,tac,sid,nid,bid
+48.78479,-105.421371,311,480,2685,246324739,,1000,1,1,LTE,,,2685,,,
+48.792343139648,-105.42137145996,311,480,2685,246324737,,1000,1,1,LTE,,,2685,,,
