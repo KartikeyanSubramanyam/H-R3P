@@ -38,39 +38,39 @@
 # Doctors Hospital
 # Monroe County Hospital
 # Taylor Regional Hospital
-# Emanuel Medical Center
-# Union General Hospital
-# U. S. Air Force Regional Hospital
-# Good Samaritan Hospital (2 in same state)
-# Atrium Medical Center
-# St. Catherine Hospital
+## Emanuel Medical Center
+## Union General Hospital
+## U. S. Air Force Regional Hospital
+## Good Samaritan Hospital (2 in same state)
+## Atrium Medical Center
+## St. Catherine Hospital
 # Community Hospital
-# Perry County Memorial Hospital
+## Perry County Memorial Hospital
 # HSHS St. Joseph's Hospital (2 in same state)
-# Clay County Hospital
-# Riverside Medical Center
-# Washington County Hospital
+## Clay County Hospital
+## Riverside Medical Center
+## Washington County Hospital
 # King's Daughters Medical Center
-# Carroll County Memorial Hospital
+## Carroll County Memorial Hospital
 # Riverview Regional Medical Center
-# Rolling Hills Hospital
-# Marshall Medical Center
-# Unity Medical Center
+## Rolling Hills Hospital
+## Marshall Medical Center
+## Unity Medical Center
 # Beacon Behavioral Hospital (2 in same state)
 # Mountain View Hospital
-# Springhill Medical Center
-# Northwest Medical Center
-# Franklin County Memorial Hospital
-# Jefferson County Hospital
+## Springhill Medical Center
+## Northwest Medical Center
+## Franklin County Memorial Hospital
+## Jefferson County Hospital
 # U. S. Public Health Service Indian Hospital (More than 2 in multiple states, added number suffix)
-# Lakeview Hospital
-# St. Luke's Rehabilitation Hospital
-# St. Joseph Medical Center
-# Columbus Community Hospital
+## Lakeview Hospital
+## St. Luke's Rehabilitation Hospital
+## St. Joseph Medical Center
+## Columbus Community Hospital
 # Madonna Rehabilitation Hospital (3 in same state, added number suffix)
 # Providence Medical Center
 # Citizens Medical Center
-# Saint Mary's Regional Medical Center
+## Saint Mary's Regional Medical Center
 # University Medical Center
 # Mercy Regional Medical Center
 # St. Francis Medical Center
