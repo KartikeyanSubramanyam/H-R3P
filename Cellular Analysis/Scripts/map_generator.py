@@ -21,11 +21,10 @@ print(len(hospital_lat_long_df))
 # Clean and convert latitude/longitude to numeric
 hospital_lat_long_df[['Latitude', 'Longitude']] = hospital_lat_long_df[['Latitude', 'Longitude']].apply(pd.to_numeric)
 hospital_lat_long_df_cleaned = hospital_lat_long_df.dropna(subset=['Latitude', 'Longitude'])
-print(len(hospital_lat_long_df))
-
+print(len(hospital_lat_long_df_cleaned))
 
 # Creating a map centered at a specific latitude and longitude for all hospitals
-my_map = folium.Map(location=[39.8097, 98.5556], zoom_start=1)
+my_map = folium.Map(location=[44.967243, -103.771556], zoom_start=4)
 
 # looprun = 0
 # for idx, hospital_coord in enumerate(hospital_coords_df_cleaned.iterrows()):
@@ -39,15 +38,15 @@ my_map = folium.Map(location=[39.8097, 98.5556], zoom_start=1)
 
 # Display the map
 
-df = pd.read_csv('api_results.csv', index_col=0)
+df = pd.read_csv('../Analysis_Results/api_results.csv', index_col=0)
 
 # Optionally, you can rename columns explicitly if needed:
-df.columns = ['Hospital Name', 'Nearby Cell Towers']
+# df.columns = ['Hospital Name', 'Nearby Cell Towers']
 
 # Display cleaned DataFrame
 print(df.head())
 
-filtered_df = df[(df['Nearby Cell Towers 10m'] != 0)]
+filtered_df = df[(df['Nearby Cell Towers'] != 0)]
 
 print(filtered_df.head())
 print(len(filtered_df))
@@ -62,8 +61,9 @@ merged_df = pd.merge(df, hospital_lat_long_df, on='Hospital Name', how='inner')
 merged_df['Latitude'] = pd.to_numeric(merged_df['Latitude'])
 merged_df['Longitude'] = pd.to_numeric(merged_df['Longitude'])
 merged_df_cleaned = merged_df.dropna(subset=['Latitude', 'Longitude'])
-# print(len(merged_df_cleaned))
-# print(merged_df_cleaned.tail())
+print(len(merged_df_cleaned))
+print(merged_df_cleaned.tail())
+count = 0
 for _, row in merged_df_cleaned.iterrows():
     # print(row['Latitude'])
     # print(row['Longitude'])
@@ -75,6 +75,7 @@ for _, row in merged_df_cleaned.iterrows():
             icon_size=[15, 15]  # Set the size of the pin
         )
         folium.Marker([row['Latitude'], row['Longitude']], popup={row['Hospital Name']}, icon=blue_icon).add_to(my_map)
+        count += 1
 
     else:
         red_icon = BeautifyIcon(
@@ -87,5 +88,6 @@ for _, row in merged_df_cleaned.iterrows():
 
 
 # Display the map
-my_map.save("API_Result_Comparison.html")
+my_map.save("../Maps/API_Result_Comparison.html")
+print(count)
 # second_map.save("HospitalsMapWithNonZeroCellTowers.html")
