@@ -1,0 +1,161 @@
+Number of hospitals missing files: 80
+Missing file for hospital: Valley Springs Behavioral Health Hospital
+Missing file for hospital: Penn State Health Lancaster Medical Center
+Missing file for hospital: Geisinger Medical Center Muncy
+Missing file for hospital: Rehabilitation Hospital of Bowie
+Missing file for hospital: Inova Specialty Hospital
+Missing file for hospital: Novant Health Ballantyne Medical Center
+Missing file for hospital: Appalachian Regional Behavioral Health
+Missing file for hospital: Encompass Health Rehabilitation Hospital of Greenville
+Missing file for hospital: MUSC Health Black River Medical Center
+Missing file for hospital: Encompass Health Rehabilitation Hospital of Cumming
+Missing file for hospital: HCA Florida Mercy Hospital
+Missing file for hospital: HCA Florida University Hospital
+Missing file for hospital: Encompass Health Rehabilitation Hospital of Cape Coral
+Missing file for hospital: Encompass Health Rehabilitation Hospital of Lakeland
+Missing file for hospital: AdventHealth Palm Coast Parkway
+Missing file for hospital: Ascension St. Vincent’s St. Johns County
+Missing file for hospital: BayCare Hospital Wesley Chapel
+Missing file for hospital: Encompass Health Rehabilitation Hospital of Clermont
+Missing file for hospital: Encompass Health Rehabilitation Hospital of Jacksonville
+Missing file for hospital: Rehabilitation Hospital of Naples
+Missing file for hospital: Encompass Health Rehabilitation Hospital of St. Augustine
+Missing file for hospital: Select Specialty Hospital - Cleveland Fairhill
+Missing file for hospital: Nationwide Children's Hospital - Toledo
+Missing file for hospital: Riverview Health Institute
+Missing file for hospital: Indianapolis Rehabilitation Hospital
+Missing file for hospital: Community Rehabilitation Hospital North
+Missing file for hospital: Bloomington Regional Rehabilitation Hospital
+Missing file for hospital: Rehabilitation Hospital of Northern Indiana
+Missing file for hospital: Kindred Chicago Lakeshore
+Missing file for hospital: Encompass Health Rehabilitation Institute of Libertyville
+Missing file for hospital: Mercy Crystal Lake Hospital and Medical Center
+Missing file for hospital: Mira Neuro Behavioral Health Care
+Missing file for hospital: Granite Hills Hospital
+Missing file for hospital: Mental Health Emergency Center
+Missing file for hospital: Rehabilitation Hospital of Western Wisconsin
+Missing file for hospital: Milwaukee Rehabilitation Hospital at Greenfield
+Missing file for hospital: Patricia Neal Rehabilitation Hospital
+Missing file for hospital: TriStar Ashland City Medical Center
+Missing file for hospital: Select Specialty Hospital - West Tennessee
+Missing file for hospital: Maryland Heights Center for Behavioral Health
+Missing file for hospital: Mercy Rehabilitation Hospital South
+Missing file for hospital: Altru Rehabilitation Hospital
+Missing file for hospital: U. S. Public Health Service Indian Hospital SD 3
+Missing file for hospital: Johnson County Rehabilitation Hospital
+Missing file for hospital: Sevier County Medical Center
+Missing file for hospital: Unity Health - Jacksonville
+Missing file for hospital: Shreveport Rehabilitation Hospital
+Missing file for hospital: Covington Trace ER & Hospital
+Missing file for hospital: Tulsa Rehabilitation Hospital
+Missing file for hospital: Council Oak Comprehensive Healthcare
+Missing file for hospital: Ascension St. John Rehabilitation Hospital, an affiliate of Encompass Health - Owasso
+Missing file for hospital: Oklahoma City Rehabilitation Hospital
+Missing file for hospital: The Hospitals of Providence Horizon City Campus
+Missing file for hospital: Legent North Houston Surgical Hospital
+Missing file for hospital: Texarkana Emergency Center & Hospital
+Missing file for hospital: VA Texas Valley Coastal HCS
+Missing file for hospital: Reunion Rehabilitation Hospital Plano
+Missing file for hospital: Reunion Rehabilitation Hospital Arlington
+Missing file for hospital: Beaumont Emergency Hospital
+Missing file for hospital: Encompass Health Rehabilitation Hospital of Waco
+Missing file for hospital: Shannon Rehabilitation Hospital, an affiliate of Encompass Health
+Missing file for hospital: San Antonio Rehabilitation Hospital
+Missing file for hospital: Everest Rehabilitation Hospital of El Paso
+Missing file for hospital: Elitecare Emergency Hospital
+Missing file for hospital: Townsen Memorial Hospital
+Missing file for hospital: Idaho Falls Community Hospital
+Missing file for hospital: North Platte Valley Medical Center
+Missing file for hospital: PAM Health Rehabilitation Hospital of Westminster
+Missing file for hospital: Reunion Rehabilitation Hospital Inverness
+Missing file for hospital: Children's Hospital Colorado - Colorado Springs
+Missing file for hospital: Cornerstone Behavioral Health El Dorado
+Missing file for hospital: Reunion Rehabilitation Hospital Peoria
+Missing file for hospital: Exceptional Community Hospital Maricopa
+Missing file for hospital: Dignity Health East Valley Rehabilitation Hospital - Gilbert
+Missing file for hospital: Reunion Rehabilitation Hospital Phoenix
+Missing file for hospital: Exceptional Community Hospital Yuma
+Missing file for hospital: Dignity St. Rose ‐ Craig Ranch
+Missing file for hospital: Sacramento Rehabilitation Hospital, LLC
+Missing file for hospital: Bakersfield Rehabilitation Hospital
+Missing file for hospital: Stockton Regional Rehabilitation Hospital
+file does not exist ../Hospital_Results/Valley_Springs_Behavioral_Health_Hospital.csv
+file does not exist ../Hospital_Results/Penn_State_Health_Lancaster_Medical_Center.csv
+file does not exist ../Hospital_Results/Geisinger_Medical_Center_Muncy.csv
+file does not exist ../Hospital_Results/Rehabilitation_Hospital_of_Bowie.csv
+file does not exist ../Hospital_Results/Inova_Specialty_Hospital.csv
+file does not exist ../Hospital_Results/Novant_Health_Ballantyne_Medical_Center.csv
+file does not exist ../Hospital_Results/Appalachian_Regional_Behavioral_Health.csv
+file does not exist ../Hospital_Results/Encompass_Health_Rehabilitation_Hospital_of_Greenville.csv
+file does not exist ../Hospital_Results/MUSC_Health_Black_River_Medical_Center.csv
+file does not exist ../Hospital_Results/Encompass_Health_Rehabilitation_Hospital_of_Cumming.csv
+file does not exist ../Hospital_Results/HCA_Florida_Mercy_Hospital.csv
+file does not exist ../Hospital_Results/HCA_Florida_University_Hospital.csv
+file does not exist ../Hospital_Results/Encompass_Health_Rehabilitation_Hospital_of_Cape_Coral.csv
+file does not exist ../Hospital_Results/Encompass_Health_Rehabilitation_Hospital_of_Lakeland.csv
+file does not exist ../Hospital_Results/AdventHealth_Palm_Coast_Parkway.csv
+file does not exist ../Hospital_Results/Ascension_St__Vincent_s_St__Johns_County.csv
+file does not exist ../Hospital_Results/BayCare_Hospital_Wesley_Chapel.csv
+file does not exist ../Hospital_Results/Encompass_Health_Rehabilitation_Hospital_of_Clermont.csv
+file does not exist ../Hospital_Results/Encompass_Health_Rehabilitation_Hospital_of_Jacksonville.csv
+file does not exist ../Hospital_Results/Rehabilitation_Hospital_of_Naples.csv
+file does not exist ../Hospital_Results/Encompass_Health_Rehabilitation_Hospital_of_St__Augustine.csv
+file does not exist ../Hospital_Results/Select_Specialty_Hospital___Cleveland_Fairhill.csv
+file does not exist ../Hospital_Results/Nationwide_Children_s_Hospital___Toledo.csv
+file does not exist ../Hospital_Results/Riverview_Health_Institute.csv
+file does not exist ../Hospital_Results/Indianapolis_Rehabilitation_Hospital.csv
+file does not exist ../Hospital_Results/Community_Rehabilitation_Hospital_North.csv
+file does not exist ../Hospital_Results/Bloomington_Regional_Rehabilitation_Hospital.csv
+file does not exist ../Hospital_Results/Rehabilitation_Hospital_of_Northern_Indiana.csv
+file does not exist ../Hospital_Results/Kindred_Chicago_Lakeshore.csv
+file does not exist ../Hospital_Results/Encompass_Health_Rehabilitation_Institute_of_Libertyville.csv
+file does not exist ../Hospital_Results/Mercy_Crystal_Lake_Hospital_and_Medical_Center.csv
+file does not exist ../Hospital_Results/Mira_Neuro_Behavioral_Health_Care.csv
+file does not exist ../Hospital_Results/Granite_Hills_Hospital.csv
+file does not exist ../Hospital_Results/Mental_Health_Emergency_Center.csv
+file does not exist ../Hospital_Results/Rehabilitation_Hospital_of_Western_Wisconsin.csv
+file does not exist ../Hospital_Results/Milwaukee_Rehabilitation_Hospital_at_Greenfield.csv
+file does not exist ../Hospital_Results/Patricia_Neal_Rehabilitation_Hospital.csv
+file does not exist ../Hospital_Results/TriStar_Ashland_City_Medical_Center.csv
+file does not exist ../Hospital_Results/Select_Specialty_Hospital___West_Tennessee.csv
+file does not exist ../Hospital_Results/Maryland_Heights_Center_for_Behavioral_Health.csv
+file does not exist ../Hospital_Results/Mercy_Rehabilitation_Hospital_South.csv
+file does not exist ../Hospital_Results/Altru_Rehabilitation_Hospital.csv
+file does not exist ../Hospital_Results/U__S__Public_Health_Service_Indian_Hospital_SD_3.csv
+file does not exist ../Hospital_Results/Johnson_County_Rehabilitation_Hospital.csv
+file does not exist ../Hospital_Results/Sevier_County_Medical_Center.csv
+file does not exist ../Hospital_Results/Unity_Health___Jacksonville.csv
+file does not exist ../Hospital_Results/Shreveport_Rehabilitation_Hospital.csv
+file does not exist ../Hospital_Results/Covington_Trace_ER___Hospital.csv
+file does not exist ../Hospital_Results/Tulsa_Rehabilitation_Hospital.csv
+file does not exist ../Hospital_Results/Council_Oak_Comprehensive_Healthcare.csv
+file does not exist ../Hospital_Results/Ascension_St__John_Rehabilitation_Hospital__an_affiliate_of_Encompass_Health___Owasso.csv
+file does not exist ../Hospital_Results/Oklahoma_City_Rehabilitation_Hospital.csv
+file does not exist ../Hospital_Results/The_Hospitals_of_Providence_Horizon_City_Campus.csv
+file does not exist ../Hospital_Results/Legent_North_Houston_Surgical_Hospital.csv
+file does not exist ../Hospital_Results/Texarkana_Emergency_Center___Hospital.csv
+file does not exist ../Hospital_Results/VA_Texas_Valley_Coastal_HCS.csv
+file does not exist ../Hospital_Results/Reunion_Rehabilitation_Hospital_Plano.csv
+file does not exist ../Hospital_Results/Reunion_Rehabilitation_Hospital_Arlington.csv
+file does not exist ../Hospital_Results/Beaumont_Emergency_Hospital.csv
+file does not exist ../Hospital_Results/Encompass_Health_Rehabilitation_Hospital_of_Waco.csv
+file does not exist ../Hospital_Results/Shannon_Rehabilitation_Hospital__an_affiliate_of_Encompass_Health.csv
+file does not exist ../Hospital_Results/San_Antonio_Rehabilitation_Hospital.csv
+file does not exist ../Hospital_Results/Everest_Rehabilitation_Hospital_of_El_Paso.csv
+file does not exist ../Hospital_Results/Elitecare_Emergency_Hospital.csv
+file does not exist ../Hospital_Results/Townsen_Memorial_Hospital.csv
+file does not exist ../Hospital_Results/Idaho_Falls_Community_Hospital.csv
+file does not exist ../Hospital_Results/North_Platte_Valley_Medical_Center.csv
+file does not exist ../Hospital_Results/PAM_Health_Rehabilitation_Hospital_of_Westminster.csv
+file does not exist ../Hospital_Results/Reunion_Rehabilitation_Hospital_Inverness.csv
+file does not exist ../Hospital_Results/Children_s_Hospital_Colorado___Colorado_Springs.csv
+file does not exist ../Hospital_Results/Cornerstone_Behavioral_Health_El_Dorado.csv
+file does not exist ../Hospital_Results/Reunion_Rehabilitation_Hospital_Peoria.csv
+file does not exist ../Hospital_Results/Exceptional_Community_Hospital_Maricopa.csv
+file does not exist ../Hospital_Results/Dignity_Health_East_Valley_Rehabilitation_Hospital___Gilbert.csv
+file does not exist ../Hospital_Results/Reunion_Rehabilitation_Hospital_Phoenix.csv
+file does not exist ../Hospital_Results/Exceptional_Community_Hospital_Yuma.csv
+file does not exist ../Hospital_Results/Dignity_St__Rose___Craig_Ranch.csv
+file does not exist ../Hospital_Results/Sacramento_Rehabilitation_Hospital__LLC.csv
+file does not exist ../Hospital_Results/Bakersfield_Rehabilitation_Hospital.csv
+file does not exist ../Hospital_Results/Stockton_Regional_Rehabilitation_Hospital.csv

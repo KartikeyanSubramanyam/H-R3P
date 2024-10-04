@@ -67,3 +67,44 @@ else:
 #         print(f"Extra file: {file}")
 # else:
 #     print("All files have corresponding hospitals.")
+
+output_csv_path = 'api_results.csv'  # Output CSV file path
+
+# Prepare data for output
+result = []
+
+# Process each hospital
+for idx, cleaned_name in enumerate(hospital_names_normalized):
+    hospital_file = os.path.join(directory_path, f"{cleaned_name}.csv")
+    
+    # Check if the file exists
+    if os.path.exists(hospital_file):
+        # Count the number of rows (points) in the file
+        try:
+            with open(hospital_file, 'r') as f:
+                first_line = f.readline().strip()
+                if first_line == "info,code":
+                    # Handle files with "No cells found"
+                    num_points = 0
+                else:
+                    # Count the number of rows with data
+                    df = pd.read_csv(hospital_file)
+                    num_points = len(df)
+        except Exception as e:
+            print(f"Error reading file {hospital_file}: {e}")
+        # num_points = count_rows_in_file(hospital_file)
+    else:
+        # If the file doesn't exist, set points to 0
+        print(f"file does not exist {hospital_file}")
+        num_points = 0
+    
+    # Add result to the list (index, original hospital name, number of points)
+    result.append([idx, hospital_names[idx], num_points])
+
+# Step 4: Write the results to the output CSV
+with open(output_csv_path, 'w', newline='') as csvfile:
+    writer = csv.writer(csvfile)
+    writer.writerow(['Index', 'Hospital Name', 'Nearby Cell Towers'])
+    writer.writerows(result)
+
+print(f"Results saved to {output_csv_path}")
