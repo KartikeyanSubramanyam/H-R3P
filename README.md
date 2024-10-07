@@ -9,3 +9,8 @@ This directory consists of the research done to answer the following question: h
 ## Cracking Haiku
 
 This directory contains a list of Haiku URLs (in the form **_epichaiku://handheld/config_**), as well as a Python script to convert the remaining cipher text into plain text in order to get useful information from the aforementioned URLs.
+
+
+## Miscellaneous
+
+This directory contains scripts, etc, written for smaller goals.
