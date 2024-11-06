@@ -1,0 +1,354 @@
+Kwajalein Hospital
+Hospital Menonita Ponce
+Castaner General Hospital
+Dr. Pila's Hospital
+Calais Community Hospital
+Northern Maine Medical Center
+Upper Connecticut Valley Hospital
+Weeks Medical Center
+New London Hospital
+The University of Vermont Health Network Porter Medical Center
+Gifford Medical Center
+Baldpate Hospital
+Pembroke Hospital
+The Connecticut Hospice
+Connecticut Department of Correction's Hospital
+Cobleskill Regional Hospital
+Massena Hospital, Inc.
+Clifton-Fine Hospital
+Penn Highlands Brookville
+Geisinger St. Luke's Hospital
+UPMC Kane
+WellSpan Philhaven
+Guthrie Troy Community Hospital
+Endless Mountains Health Systems
+Punxsutawney Area Hospital
+Huntington Creek Recovery Center
+Conemaugh Miners Medical Center
+Torrance State Hospital
+Penn Highlands Tyrone
+Eastern Shore Hospital Center
+Dickenson Community Hospital
+Catawba Hospital
+Bon Secours - Southampton Medical Center
+Buchanan General Hospital
+Cumberland Hospital for Children and Adolescents
+VCU Health Tappahannock Hospital
+Carilion Tazewell Community Hospital
+Pocahontas Memorial Hospital
+Roane General Hospital
+Welch Community Hospital
+Erlanger Western Carolina Hospital
+UNC Health Chatham
+William J. McCord Adolescent Treatment Facility
+Abbeville Area Medical Center
+MUSC Health Chester Medical Center
+Roper St. Francis Berkeley Hospital
+Encompass Health Rehabilitation Hospital of Bluffton
+Hampton Regional Medical Center
+Roosevelt Warm Springs Long Term Acute Care Hospital
+Atrium Health Floyd Polk Medical Center
+Jeff Davis Hospital
+Jenkins County Medical Center
+Optim Medical Center - Tattnall
+Washington County Regional Medical Center
+Roosevelt Warm Springs Rehabilitation and Specialty Hospitals
+Archbold Brooks
+Northeast Florida State Hospital
+Encompass Health Rehabilitation Hospital of Pensacola
+WVU Medicine - Harrison Community Hospital
+Ridgeview Behavioral Hospital
+Southern Ohio Medical Center
+OhioHealth Shelby Hospital
+Plymouth Medical Center
+Franciscan Health Rensselear
+Pulaski Memorial Hospital
+Brentwood Springs
+Memorial Hospital IL
+Gibson Area Hospital and Health Services
+Hopedale Medical Complex
+Paris Community Hospital
+Hardin County General Hospital
+Iroquois Memorial Hospital and Resident Home
+Sparrow Carson Hospital
+ProMedica Charles and Virginia Hickman Hospital
+UP Health System - Portage
+Harbor Beach Community Hospital Inc.
+UP Health System - Bell
+Baraga County Memorial Hospital
+Munising Memorial Hospital
+Tamarack Health Ashland Medical Center
+ThedaCare Medical Center-Berlin
+Southwest Health
+Upland Hills Health
+Marshfield Medical Center - Minocqua
+Tamarack Health Hayward Medical Center
+Grant Regional Health Center
+Rogers Behavioral Health
+HSHS St. Clare Memorial Hospital
+Aspirus Rhinelander Hospital
+Spooner Health
+Watertown Regional Medical Center
+Jane Todd Crawford Hospital
+Mary Breckinridge ARH Hospital
+McDowell ARH Hospital
+Deaconess Union County Hospital
+The Medical Center at Caverna
+Tennova Healthcare-LaFollette Medical Center
+Marshall Medical Center South
+Medical Center Barbour
+Hale County Hospital
+Bradford Health Services at Warrior Lodge
+Red Bay Hospital
+Greene County Hospital
+Baptist Memorial Hospital - Calhoun
+Field Memorial Community Hospital
+Copiah County Medical Center
+University of Mississippi Medical Center Holmes County
+Simpson General Hospital
+Pearl River County Hospital
+Essentia Health-Ada
+Community Behavioral Health Hospital - Baxter
+Appleton Area Health
+CHI St. Francis Health
+Sanford Canby Medical Center
+Johnson Memorial Health Services
+Elbow Lake Medical Center
+Essentia Health-Graceville
+North Shore Health
+Kittson Healthcare
+Sanford Jackson Medical Center
+Mahnomen Health Center
+Essentia Health Moose Lake
+CentraCare - Redwood
+Avera Tyler
+Sanford Wheaton Medical Center
+Audubon County Memorial Hospital and Clinics
+Southeast Iowa Regional Medical Center, West Burlington Campus
+MercyOne Centerville Medical Center
+Cherokee Mental Health Institute
+Iowa Specialty Hospital-Clarion
+CHI Health Mercy Corning
+Wayne County Hospital and Clinic System
+Regional Health Services of Howard County
+Crawford County Memorial Hospital
+MercyOne Elkader Medical Center
+Adair County Health System
+Guthrie County Hospital
+George C. Grape Community Hospital
+Franklin General Hospital
+Independence Mental Health Institute
+Hansen Family Hospital
+Van Buren County Hospital
+Stewart Memorial Community Hospital
+Floyd Valley Healthcare
+Ringgold County Hospital
+Ottumwa Regional Health Center
+Pocahontas Community Hospital
+MercyOne Primghar Medical Center
+Montgomery County Memorial Hospital
+Hegg Health Center Avera
+Loring Hospital
+Shenandoah Medical Center
+Osceola Regional Health Center
+Gundersen Palmer Lutheran Hospital and Clinics
+Manning Regional Healthcare Center
+Keokuk County Health Center
+Carroll County Memorial Hospital MO
+Community Hospital-Fairfax
+Pemiscot Memorial Health System
+Scotland County Hospital
+Wright Memorial Hospital
+Hermann Area District Hospital
+Sullivan County Memorial Hospital
+Southwest Healthcare Services
+Dakota Regional Medical Center
+St. Luke's Medical Center
+Sanford Mayville Medical Center
+Nelson County Health System
+Northwood Deaconess Health Center
+CHI Oakes Hospital
+CHI St. Alexius Health Turtle Lake Hospital
+Douglas County Memorial Hospital
+Bowdle Hospital
+Sanford Chamberlain Medical Center
+Sanford Clear Lake Medical Center
+Faulkton Area Medical Center
+Freeman Regional Health Services
+Avera Gregory Hospital
+Fall River Health Services
+Madison Regional Health System
+Milbank Area Hospital Avera
+Avera St. Benedict Health Center
+U. S. Public Health Service Indian Hospital SD 1
+Platte Health Center Avera
+Landmann-Jungman Memorial Hospital Avera
+Avera Weskota Memorial Hospital
+Sanford Canton-Inwood Medical Center
+Memorial Community Health
+Dundy County Hospital
+Avera Creighton Hospital
+Butler County Health Care Center
+Community Medical Center, Inc.
+Thayer County Health Services
+Henderson Health Care Services
+Niobrara Valley Hospital
+Community Hospital NE
+Antelope Memorial Hospital
+Ogallala Community Hospital
+Annie Jeffrey Memorial County Health Center
+Regional West Garden County
+Pender Community Hospital
+CHI Health Schuyler
+Johnson County Hospital
+Twelve Clans Unity Hospital
+Saunders Medical Center
+Memorial Health System
+Patterson Health Center
+Ashland Health Center
+KVC Prairie Ridge Psychiatric Hospital
+Coffey County Hospital
+Comanche County Hospital
+North Central Kansas Medical Center
+Ellinwood District Hospital
+Greenwood County Hospital
+Girard Medical Center
+Amberwell Hiawatha
+Hillsboro Community Hospital
+Sheridan County Health Complex
+Hodgeman County Health Center
+Stormont Vail Health - Flint Hills Campus
+Edwards County Medical Center
+Kiowa District Healthcare
+Rush County Memorial Hospital
+Wichita County Health Center
+Lincoln County Hospital
+Hospital District No 1 of Rice County
+St. Luke Hospital and Living Center
+Medicine Lodge Memorial Hospital
+Wilson Medical Center KS
+Logan County Hospital
+Decatur Health Systems
+Osborne County Memorial Hospital
+Gove County Medical Center
+Russell Regional Hospital
+Sabetha Community Hospital
+Smith County Memorial Hospital
+Greeley County Health Services
+Trego County-Lemke Memorial Hospital
+Jewell County Hospital
+Sumner County Hospital District 1
+Great River Medical Center
+Chambers Memorial Hospital
+Delta Health System
+Ozarks Community Hospital
+Forrest City Medical Center
+Baptist Health Medical Center-Hot Spring County
+Mercy Rehabilitation Hospital Fort Smith
+Fulton County Hospital
+Conway Behavioral Health
+Accord Rehabilitation Hospital
+Reeves Memorial Medical Center
+Cypress Grove Behavioral Health
+Lady of the Sea General Hospital
+Claiborne Memorial Medical Center
+Eastern Louisiana Mental Health System
+East Carroll Parish Hospital
+St. James Parish Hospital
+Our Lady of the Lake Assumption Community Hospital
+Springhill Medical Center LA
+Villa Feliciana Medical Complex
+Beaver County Memorial Hospital
+Cimarron Memorial Hospital
+Roger Mills Memorial Hospital
+Cleveland Area Hospital
+Mercy Hospital Healdton
+McCurtain Memorial Hospital
+Mangum Regional Medical Center
+Jack C. Montgomery Department of Veterans Affairs Medical Center
+Stillwater Medical Perry
+Big Bend Regional Medical Center
+Anson General Hospital
+Childress Regional Medical Center
+Rice Medical Center
+Electra Memorial Hospital
+Carrus Behavioral Hospital
+Medina Regional Hospital
+Knox County Hospital
+Covenant Hospital-Levelland
+McCamey County Hospital District
+Cochran Memorial Hospital
+Palo Pinto General Hospital
+Rankin County Hospital District
+Fisher County Hospital District
+CHI St. Luke's Health Memorial San Augustine
+Shamrock General Hospital
+Lillian M. Hudspeth Memorial Hospital
+Culberson Hospital
+Big Sandy Medical Center
+Fallon Medical Complex
+Blackfeet Community Hospital
+Benefis Teton Medical Center
+Logan Health - Conrad
+Crow/Northern Cheyenne Hospital
+Barrett Hospital & HealthCare
+Rosebud Health Care Center
+Fort Harrison VA Medical Center
+Fort Belknap Service Unit
+Wheatland Memorial Healthcare
+Northern Montana Hospital
+Livingston HealthCare
+Phillips County Hospital
+Granite County Medical Center
+Clark Fork Valley Hospital
+Beartooth Billings Clinic
+Roundup Memorial Healthcare
+McCone County Health Center
+Logan Health Shelby
+Cascade Medical Center
+Valor Health
+Nell J. Redfield Memorial Hospital
+State Hospital North
+Caribou Medical Center
+Evanston Regional Hospital
+North Big Horn Hospital District
+Niobrara Community Hospital
+Sheridan VA Medical Center
+Hot Springs County Memorial Hospital
+Rio Grande Hospital
+UCHealth Pikes Peak Regional Hospital
+Kit Carson County Memorial Hospital
+Prowers Medical Center
+Rangely District Hospital
+Sierra Vista Hospital NM
+New Mexico Behavioral Health Institute at Las Vegas
+Guadalupe County Hospital
+Hopi Health Care Center
+San Carlos Apache Healthcare Corporation
+HonorHealth Sonoran Crossing Medical Center
+Northwest Medical Center Sahuarita
+Beaver Valley Hospital
+Delta Community Medical Center
+Milford Valley Memorial Hospital
+San Juan Health Service District
+Reno Behavioral Healthcare Hospital
+Three Rivers Hospital
+Columbia County Health System
+Columbia Basin Hospital
+Skyline Hospital
+Coquille Valley Hospital
+CHI St. Anthony Hospital
+Adventist Health Columbia Gorge
+Mayers Memorial Hospital District
+Glendale Memorial Hospital and Health Center
+Emanate Health Foothill Presbyterian Hospital
+Glendora Hospital
+Sierra Nevada Memorial Hospital
+Orchard Hospital
+Sutter Lakeside Hospital
+Eastern Plumas Health Care
+Vista Del Mar Hospital
+Fairchild Medical Center
+Bristol Bay Area Health Corporation
+Providence Valdez Medical Center
+Kula Hospital

@@ -91,7 +91,7 @@ my_map = folium.Map(location=[44.967243, -103.771556], zoom_start=4)
 # my_map.save("../Maps/API_Result_Comparison.html")
 # print(count)
 
-df = pd.read_csv('../Analysis_Results/AT&T+FirstNet_Count_List.csv', index_col=0)
+df = pd.read_csv('../Analysis_Results/hospital_verizon_tower_comparison.csv', index_col=0)
 print(df.head())
 print(len(df))
 
@@ -107,54 +107,62 @@ merged_df['Longitude'] = pd.to_numeric(merged_df['Longitude'])
 merged_df_cleaned = merged_df.dropna(subset=['Latitude', 'Longitude'])
 # print(len(merged_df_cleaned))
 # print(merged_df_cleaned.tail())
-attcount = 0
-fncount = 0
-nocount = 0
+verizoncount = 0
 
 
 
 for _, row in merged_df_cleaned.iterrows():
     # print(row['Latitude'])
     # print(row['Longitude'])
-    if (row['FirstNet'] > 0):
+    if (row['Verizon'] > 0):
         red_icon = BeautifyIcon(
             icon_shape='marker',  # Pin shape
             border_color='red',  # Color for the pin border
             text_color='red',  # Color for the pin text
-            icon_size=[15, 15]  # Set the size of the pin
+            icon_size=[18, 18]  # Set the size of the pin
         )
         folium.Marker([row['Latitude'], row['Longitude']], popup={row['Hospital Name']}, icon=red_icon).add_to(my_map)
-        fncount += 1
+        verizoncount += 1
         # print()
         # print(row['FirstNet'])
         continue
         
-    if (row['AT&T'] > 0):
-        blue_icon = BeautifyIcon(
-            icon_shape='marker',  # Pin shape
-            border_color='blue',  # Color for the pin border
-            text_color='blue',  # Color for the pin text
-            icon_size=[15, 15]  # Set the size of the pin
-        )
-        folium.Marker([row['Latitude'], row['Longitude']], popup={row['Hospital Name']}, icon=blue_icon).add_to(my_map)
-        attcount += 1
-        continue
+    # if (row['AT&T'] > 0):
+    #     blue_icon = BeautifyIcon(
+    #         icon_shape='marker',  # Pin shape
+    #         border_color='blue',  # Color for the pin border
+    #         text_color='blue',  # Color for the pin text
+    #         icon_size=[13, 13]  # Set the size of the pin
+    #     )
+    #     folium.Marker([row['Latitude'], row['Longitude']], popup={row['Hospital Name']}, icon=blue_icon).add_to(my_map)
+    #     attcount += 1
+    #     continue
 
-    if (row['AT&T'] == 0) and (row['FirstNet'] == 0):
+    # if (row['AT&T'] == 0) and (row['FirstNet'] == 0):
+    #     green_icon = BeautifyIcon(
+    #         icon_shape='marker',  # Pin shape
+    #         border_color='green',  # Color for the pin border
+    #         text_color='green',  # Color for the pin text
+    #         icon_size=[10, 10]  # Set the size of the pin
+    #     )
+    #     folium.Marker([row['Latitude'], row['Longitude']], popup={row['Hospital Name']}, icon=green_icon).add_to(my_map)
+    #     nocount += 1
+    #     # print(row['Hospital Name'] + "," + str(row['AT&T']) + "" + str(row['FirstNet']))
+    #     continue
+    else:
         green_icon = BeautifyIcon(
             icon_shape='marker',  # Pin shape
             border_color='green',  # Color for the pin border
             text_color='green',  # Color for the pin text
-            icon_size=[15, 15]  # Set the size of the pin
+            icon_size=[10, 10]  # Set the size of the pin
         )
-        folium.Marker([row['Latitude'], row['Longitude']], popup={row['Hospital Name']}, icon=green_icon).add_to(my_map)
-        nocount += 1
-        # print(row['Hospital Name'] + "," + str(row['AT&T']) + "" + str(row['FirstNet']))
+        folium.Marker([row['Latitude'], row['Longitude']], popup={row['Hospital Name']}, icon=green_icon).add_to(my_map)        
         continue
 
 
 # Display the map
-my_map.save("../Maps/AT&T_Map.html")
-print(attcount)
-print(fncount)
-print(nocount)
+my_map.save("../Maps/Verizon_Map.html")
+print("printing results")
+print(verizoncount)
+# print(fncount)
+# print(nocount)
