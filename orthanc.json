@@ -165,7 +165,7 @@
   "DicomCheckCalledAet" : false,
 
   // The DICOM port
-  "DicomPort" :104,
+  "DicomPort" :4242,
 
   // The default encoding that is assumed for DICOM files without
   // "SpecificCharacterSet" DICOM tag, and that is used when answering
@@ -269,7 +269,7 @@
   // The list of the registered users. Because Orthanc uses HTTP
   // Basic Authentication, the passwords are stored as plain text.
   "RegisteredUsers" : {
-     "admin" : "Crashcart123$"
+     "admin" : "redacted"
   },
 
 
