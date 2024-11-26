@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-
+# Author: Dr. Aaron Schulman, Assistant Professor @ UCSD CSE
 import sys
 from Cryptodome.Cipher import AES
 import base64
